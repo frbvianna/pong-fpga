@@ -9,8 +9,8 @@ Resolution: 640x480 px
 # File hierarchy:
 pongGame.vhd ---> Top level entity
 
-    pongSync.vhd ---> Generates horizontal and vertical synchronism pulses based on 25 MHz pixel counts
-    
-    pongImg.vhd ---> Generates image (paddles, ball, background, peripheric lines), given due x and y counts
+pongSync.vhd ---> Generates horizontal and vertical synchronism pulses based on 25 MHz pixel counts
+
+pongImg.vhd ---> Generates image (paddles, ball, background, peripheric lines), given due x and y counts
     
     
